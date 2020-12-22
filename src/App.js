@@ -10,31 +10,19 @@ import { NotFound } from './pages/NotFound';
 import { Recipe } from './pages/Recipe';
 
 function App() {
-    const {
-        location: { pathname = '' },
-    } = window;
     return (
         <>
-            <Router>
+            <Router basename='/react-food'>
                 <Header />
                 <main className='container content'>
                     <Switch>
-                        <Route exact path={pathname}>
+                        <Route exact path='/'>
                             <Home />
                         </Route>
-                        <Route path={`${pathname}/about`} component={About} />
-                        <Route
-                            path={`${pathname}/contacts`}
-                            component={Contact}
-                        />
-                        <Route
-                            path={`${pathname}/category/:name`}
-                            component={Category}
-                        />
-                        <Route
-                            path={`${pathname}/category/:name/meal/:id`}
-                            component={Recipe}
-                        />
+                        <Route path='/about' component={About} />
+                        <Route path='/contacts' component={Contact} />
+                        <Route path='/category/:name' component={Category} />
+                        <Route path='/meal/:id' component={Recipe} />
                         <Route component={NotFound} />
                     </Switch>
                 </main>
