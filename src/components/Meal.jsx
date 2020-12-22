@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Meal(props) {
     const { strMeal, idMeal, strMealThumb } = props;
+    const { pathname } = useLocation();
 
     return (
         <div className='card'>
@@ -12,7 +13,7 @@ function Meal(props) {
                 <span className='card-title'>{strMeal}</span>
             </div>
             <div className='card-action'>
-                <Link to={`/meal/${idMeal}`} className='btn'>
+                <Link to={`${pathname}/meal/${idMeal}`} className='btn'>
                     Watch recipe
                 </Link>
             </div>

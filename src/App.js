@@ -32,7 +32,7 @@ function App() {
                             component={Category}
                         />
                         <Route
-                            path={`${pathname}/meal/:id`}
+                            path={`${pathname}/category/:name/meal/:id`}
                             component={Recipe}
                         />
                         <Route component={NotFound} />
