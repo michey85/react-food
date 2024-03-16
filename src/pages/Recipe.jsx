@@ -17,7 +17,7 @@ function Recipe() {
       {!recipe.idMeal ? (
         <Preloader />
       ) : (
-        <div className="recipe">
+        <div className="recipe" role="article">
           <img src={recipe.strMealThumb} alt={recipe.strMeal} />
           <h1>{recipe.strMeal}</h1>
           <h6>Category: {recipe.strCategory}</h6>
@@ -54,7 +54,7 @@ function Recipe() {
                 src={`https://www.youtube.com/embed/${recipe.strYoutube.slice(
                   -11,
                 )}`}
-                allowfullscreen
+                allowFullScreen
               />
             </div>
           ) : null}

@@ -9,7 +9,7 @@ function CategoryItem(props) {
   } = props;
 
   return (
-    <div className="card">
+    <div className="card" role="article">
       <div className="card-image">
         <img src={strCategoryThumb} alt={strCategory} />
       </div>

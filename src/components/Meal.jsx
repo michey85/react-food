@@ -4,7 +4,7 @@ function Meal(props) {
   const { strMeal, idMeal, strMealThumb } = props;
 
   return (
-    <div className="card">
+    <div className="card" role="article">
       <div className="card-image">
         <img src={strMealThumb} alt={strMeal} />
       </div>

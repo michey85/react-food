@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: 'react-food',
+  base: '/react-food',
   plugins: [react()],
   server: {
     open: true,
