@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList should render correctly 1`] = `
+<div
+  class="list"
+  role="list"
+>
+  <div
+    class="card"
+    role="article"
+  >
+    <div
+      class="card-image"
+    >
+      <img
+        alt="Beef"
+        src="/beef.png"
+      />
+    </div>
+    <div
+      class="card-content"
+    >
+      <span
+        class="card-title"
+      >
+        Beef
+      </span>
+      <p>
+        Beef is the culinary name for meat from cattle, particularly
+        ...
+      </p>
+    </div>
+    <div
+      class="card-action"
+    >
+      <a
+        class="btn"
+        href="/category/Beef"
+      >
+        Watch category
+      </a>
+    </div>
+  </div>
+  <div
+    class="card"
+    role="article"
+  >
+    <div
+      class="card-image"
+    >
+      <img
+        alt="Chicken"
+        src="/chicken.png"
+      />
+    </div>
+    <div
+      class="card-content"
+    >
+      <span
+        class="card-title"
+      >
+        Chicken
+      </span>
+      <p>
+        Chicken is the most common type of poultry in the world.
+        ...
+      </p>
+    </div>
+    <div
+      class="card-action"
+    >
+      <a
+        class="btn"
+        href="/category/Chicken"
+      >
+        Watch category
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CategoryList should render correctly with no items 1`] = `
+<div
+  class="list"
+  role="list"
+/>
+`;

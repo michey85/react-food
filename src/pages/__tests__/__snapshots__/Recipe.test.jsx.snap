@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe should render a recipe 1`] = `
+<div
+  class="recipe"
+  role="article"
+>
+  <img
+    alt="First"
+    src="Thumb"
+  />
+  <h1>
+    First
+  </h1>
+  <h6>
+    Category: 
+    Category
+  </h6>
+  <h6>
+    Area: 
+    Area
+  </h6>
+  <p>
+    Instructions
+  </p>
+  <table
+    class="centered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Ingredient
+        </th>
+        <th>
+          Measure
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Ingredient1
+        </td>
+        <td>
+          Measure1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    class="row"
+  >
+    <h5
+      style="margin: 2rem 0px 1.5rem;"
+    >
+      Video Recipe
+    </h5>
+    <iframe
+      allowfullscreen=""
+      src="https://www.youtube.com/embed/Youtube"
+    />
+  </div>
+</div>
+`;
+
+exports[`Recipe should render a recipe without area and youtube 1`] = `
+<div
+  class="recipe"
+  role="article"
+>
+  <img
+    alt="First"
+    src="Thumb"
+  />
+  <h1>
+    First
+  </h1>
+  <h6>
+    Category: 
+    Category
+  </h6>
+  <p>
+    Instructions
+  </p>
+  <table
+    class="centered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Ingredient
+        </th>
+        <th>
+          Measure
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Ingredient1
+        </td>
+        <td>
+          Measure1
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
