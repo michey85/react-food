@@ -25,6 +25,7 @@ function Search({ cb = Function.prototype }) {
                     value={value}
                 />
                 <button
+                    type='submit'
                     className='btn'
                     style={{
                         position: 'absolute',

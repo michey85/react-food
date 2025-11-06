@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 
 function CategoryItem(props) {
     const {
-        // idCategory,
         strCategory,
         strCategoryThumb,
         strCategoryDescription,
